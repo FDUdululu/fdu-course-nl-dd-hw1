@@ -118,7 +118,7 @@ python main.py --mode test --data_dir ./data/cifar-10-batches-py --checkpoint ./
 - **损失值曲线**：在训练过程中，记录每一轮训练和验证集上的损失值，生成损失值随训练轮数变化的曲线。从下图中可以看出，训练集损失值在开始阶段迅速下降，随着训练的进行，下降速度略微变缓，表明模型在不断学习数据特征。但验证集损失值在前期与训练集损失值趋势相似，而大约第 15 轮之后逐渐收敛，可能是模型开始出现过拟合现象。
 - **准确率曲线**：下图记录了每一轮验证集上的准确率，生成准确率随训练轮数变化的曲线。从图中可以看出，验证集准确率在第 15 轮后增长缓慢，略有波动，进一步验证了模型可能存在过拟合问题，但还未完全过拟合。
 
-![training_history](D:/Desktop/大三下/计算机视觉/homework1/figs/training_history.png)
+![training_history](./figs/training_history.png)
 
 #### （二）模型性能评估
 
@@ -146,11 +146,11 @@ python main.py --mode test --data_dir ./data/cifar-10-batches-py --checkpoint ./
 
 - **混淆矩阵**：为了更直观地展示模型在各个类别上的分类情况，绘制了混淆矩阵。混淆矩阵的行表示真实类别，列表示预测类别，矩阵中的每个元素表示真实类别为该行对应的类别，而被预测为该列对应的类别的样本数量。
 
-  <img src="D:/Desktop/大三下/计算机视觉/homework1/figs/confusion_matrix.png" alt="confusion_matrix" style="zoom:70%;" />
+  <img src="./figs/confusion_matrix.png" alt="confusion_matrix" style="zoom:70%;" />
 
   从混淆矩阵中可以发现，模型经常将类别 cat 和 dog 混淆。以下是一些模型预测错误的实例：
 
-  <img src="D:/Desktop/大三下/计算机视觉/homework1/figs/misclassifications.png" alt="misclassifications" style="zoom: 58%;" />
+  <img src="./figs/misclassifications.png" alt="misclassifications" style="zoom: 58%;" />
 
 #### （三）参数可视化
 
@@ -160,8 +160,8 @@ python main.py --mode test --data_dir ./data/cifar-10-batches-py --checkpoint ./
 
 - **可视化结果**：从下图看出，输入层权重参数学习到了边缘或者特征规律等模式。
 
-  <img src="D:/Desktop/大三下/计算机视觉/homework1/figs/weight_visualization.png" alt="weight_visualization" style="zoom:50%;" />
+  <img src="./figs/weight_visualization.png" alt="weight_visualization" style="zoom:50%;" />
 
 ## GitHub仓库
 
-本项目的代码托管在GitHub上：[三层神经网络分类器](https://github.com/FDUdululu/fdu-course-nl-dd-hw1)
+本项目的代码托管在GitHub上：[fdu-course-nl-dd-hw1](https://github.com/FDUdululu/fdu-course-nl-dd-hw1)
