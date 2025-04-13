@@ -24,7 +24,7 @@
 ├── param_search.py   # 超参数搜索模块
 ├── checkpoints/      # 模型检查点保存目录：包含不同超参数下模型、最佳参数模型
 ├── data/
-	├── cifar-10-batches-py/ # CIFAR-10 数据集目录
+    └──cifar-10-batches-py/ # CIFAR-10 数据集目录
 ├── figs/ 			  # 可视化结果
 ├── classification_report.txt   # 分类结果报告
 └── requirements.txt   # 项目所需 python 包
@@ -164,4 +164,4 @@ python main.py --mode test --data_dir ./data/cifar-10-batches-py --checkpoint ./
 
 ## GitHub仓库
 
-本项目的代码托管在GitHub上：[三层神经网络分类器](https://github.com/your-username/neural-network-classifier)
+本项目的代码托管在GitHub上：[三层神经网络分类器](https://github.com/FDUdululu/fdu-course-nl-dd-hw1)
