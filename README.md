@@ -107,7 +107,7 @@ python main.py --mode test --data_dir ./data/cifar-10-batches-py --checkpoint ./
 
 ### 训练好的模型
 
-训练好的模型权重文件可以从以下链接下载： [模型权重下载链接](https://drive.google.com/file/d/YOUR_MODEL_FILE_ID/view?usp=sharing)
+训练好的模型权重文件可以从以下链接下载： [模型权重下载链接](https://github.com/FDUdululu/fdu-course-nl-dd-hw1/blob/main/checkpoints/best_model.npz)
 
 下载后请将模型权重文件放在`checkpoints`目录下。
 
